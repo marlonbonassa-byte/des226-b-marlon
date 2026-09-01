@@ -7,14 +7,14 @@ let anodenascimento = entrada("digite o ano em que nasceu");
 let funcao = () => console.log(cartaodevisitas);
 
 //console.log(cartao de visitas);
-console.log("Nome: " + nome);
-console.log("cargo: " + typeof cargo);
+console.log("Nome: " + typeof nome);
+console.log("profissao: " + typeof profissao);
 console.log("ano de nascimento: " + typeof idade);
 
 console.log("");
 console.log("-------------------------------");
 console.log("nome: " + nome);
-console.log("profissão: " + profissão);
+console.log("profissao: " + profissao);
 console.log("ano de nascimento: " + ano);
 
 entrada();
