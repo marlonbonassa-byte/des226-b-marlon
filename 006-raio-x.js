@@ -9,6 +9,7 @@ let bilheteria;
 let numPaisesExibidos = null;
 let notaInt = parseInt(nota, 10);
 let recomendaBool = recomenda === "sim" ? true : false;
+let ehNulo = numPaisesExibidos === null ? "null" : "outra coisa";
 
 //undefined
 //null
