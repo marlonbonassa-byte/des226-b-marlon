@@ -1,11 +1,11 @@
 let entrada = require("prompt-sync")();
 
 //vamos calcular
-let strnum1 = entrada("insira o 1º valor: ");
-let strnum2 = entrada("insira o 2º valor: ");
+let strNum1 = entrada("insira o 1º valor: ");
+let strNum2 = entrada("insira o 2º valor: ");
 
-let num1 = parseInt(strnum1);
-let num2 = parseInt(strnum2);
+let num1 = parseInt(strNum1);
+let num2 = parseInt(strNum2);
 
 let soma = num1 + num2;
 let subtração = num1 - num2;
