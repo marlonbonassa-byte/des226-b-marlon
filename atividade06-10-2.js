@@ -7,7 +7,7 @@ if (valorCompra > 150) {
   frete = 0;
 } else {
   frete = 20;
-}
+} //calcula desconto acima do valor estabelecido
 
 console.log(`Valor da compra: R$ ${valorCompra}`);
 console.log(`Valor do frete: R$ ${frete}`);

@@ -5,6 +5,7 @@ let idade = Number(entrada("Digite sua idade: "));
 let maioridade = 18;
 let maiorDeIdade = idade >= maioridade;
 
+//verificação de acompanhante
 let acompanhado =
   entrada("Está acompanhado? (sim/nao): ").toLowerCase() === "sim";
 
@@ -13,7 +14,7 @@ let bloqueado = false;
 let podeEntrarPorIdadeOuAcompanhante = maiorDeIdade || acompanhado;
 let naoEstaBloqueado = !bloqueado;
 
-let acessoPermitido = podeEntrarPorIdadeOuAcompanhante && naoEstaBloqueado;
+let acessoPermitido = podeEntrarPorIdadeOuAcompanhante && naoEstaBloqueado; // maior ou acompanhado de responsavel, pode entrar
 
 if (bloqueado) {
   console.log("Acesso Bloqueado");
