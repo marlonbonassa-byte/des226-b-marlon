@@ -1,10 +1,17 @@
 const entrada = require("prompt-sync")();
 
-const fatorX = number(number < 10);
+//numeros solicitados ao usuario
+let inicio = parseInt(entrada("Digite o número inicial: "));
+let fim = parseInt(entrada("Digite o número final: "));
 
-for (let fatorY = 0; fatorY <= 10; fatorY++) {
-  const produto = fatorX * fatorY;
-  console.log(`${fatorX} x ${fatorY} = ${produto}`);
+//pede os numeros para o usuario
+for (let fatorX = inicio; fatorX <= fim; fatorX++) {
+  console.log("--- TABUADA DO " + fatorX + " ---");
+
+  //for para multiplicacao
+  for (let fatorY = 1; fatorY <= 10; fatorY++) {
+    console.log(fatorX + " x " + fatorY + " = " + fatorX * fatorY);
+  }
 }
 
-entrada("pressione ENTER para encerrar o programa!");
+entrada("Pressione ENTER para encerrar o programa!");
