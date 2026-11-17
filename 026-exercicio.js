@@ -8,10 +8,10 @@ do {
   numero = Number(entrada("Soma contínua, digite 0 para parar: "));
 
   if (numero !== 0) {
-    soma = soma + numero;
+    soma = soma + numero; //soma +=numero
     quantidade++; // contador
   }
-} while (numero !== 0);
+} while (numero !== 0); //fecha o contador se digitar 0
 
 console.log("Total somado: " + soma);
 console.log("Quantidade de valores somados: " + quantidade);
